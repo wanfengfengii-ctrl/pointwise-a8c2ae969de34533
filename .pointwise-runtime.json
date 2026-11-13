@@ -4,14 +4,14 @@
   "setup": [],
   "verify": [
     "python3",
-    "checks.py",
-    "normal"
+    "analysis.py",
+    "verify",
+    "data/incident.json"
   ],
   "demo": [
     "python3",
-    "replay.py",
-    "data/incident.json",
-    "--restore-at",
-    "idle"
+    "analysis.py",
+    "demo",
+    "data/incident.json"
   ]
 }
