@@ -1,0 +1,11 @@
+run=1 argv=["python3","checks.py","incident"] exit=1
+{"actual_pairs": 6, "expected_pairs": 9, "mode": "live", "pairs": [["lB1", "rB", 11], ["lB2", "rB", -11], ["lC", "rC", 0], ["lD", "rD", 13], ["lS", "rS", 6], ["lU", "rU", 6]], "rejected": [], "total": 25}
+{"actual_pairs": 6, "expected_pairs": 9, "mode": "before", "pairs": [["lB1", "rB", 11], ["lB2", "rB", -11], ["lC", "rC", 0], ["lD", "rD", 13], ["lS", "rS", 6], ["lU", "rU", 6]], "rejected": [], "total": 25}
+{"actual_pairs": 4, "expected_pairs": 9, "mode": "idle", "pairs": [["lC", "rC", 0], ["lD", "rD", 13], ["lS", "rS", 6], ["lU", "rU", 6]], "rejected": ["rA", "rB"], "total": 25}
+JOIN_IDLE_STATE_LOSS
+
+run=2 argv=["python3","checks.py","incident"] exit=1
+{"actual_pairs": 6, "expected_pairs": 9, "mode": "live", "pairs": [["lB1", "rB", 11], ["lB2", "rB", -11], ["lC", "rC", 0], ["lD", "rD", 13], ["lS", "rS", 6], ["lU", "rU", 6]], "rejected": [], "total": 25}
+{"actual_pairs": 6, "expected_pairs": 9, "mode": "before", "pairs": [["lB1", "rB", 11], ["lB2", "rB", -11], ["lC", "rC", 0], ["lD", "rD", 13], ["lS", "rS", 6], ["lU", "rU", 6]], "rejected": [], "total": 25}
+{"actual_pairs": 4, "expected_pairs": 9, "mode": "idle", "pairs": [["lC", "rC", 0], ["lD", "rD", 13], ["lS", "rS", 6], ["lU", "rU", 6]], "rejected": ["rA", "rB"], "total": 25}
+JOIN_IDLE_STATE_LOSS

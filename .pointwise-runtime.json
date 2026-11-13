@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "kind": "cli",
+  "setup": [],
+  "verify": [
+    "python3",
+    "checks.py",
+    "normal"
+  ],
+  "demo": [
+    "python3",
+    "replay.py",
+    "data/incident.json",
+    "--restore-at",
+    "idle"
+  ]
+}
